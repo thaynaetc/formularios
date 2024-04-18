@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+     <center><h1>Cadastro Pessoa</h1></center>
+    <form action="recebedados.php" method="post">
+        Nome: <input type="text" name="nome" size="50" >
+        <br> <br>
+        Endereço: <input type="text" name="Endereço" >
+        <br> <br>
+        Senha: <input type="password" name="Senha" >
+        <br><br>
+        Email: <input type="email" name="email" >
+        <br><br>
+        Hora: <input type="time" name="Hora" >
+        <br><br>
+        Cor: <input type="color" name="cor" >
+        <br><br>
+        <input type="image" src="https://png.pngtree.com/png-clipart/20210811/ourmid/pngtree-butterfly-watercolor-blooming-pink-butterfly-png-image_3792318.jpg" alt="">
+        <br><br>
+        Arquivo: <input type="file" name="arquivo">
+        <br><br>
+        Data: <input type="date" name="data" >
+        <br><br>
+        Satifação: <input type="range" name="satifação" >
+        <br><br>
+        Nascimento: <input type="datetime-local" name="nascimento" >
+        <br><br>
+        Cursos: <br>
+        <input type="radio" name="curso" value="TI">TI
+        <input type="radio" name="curso" value="TA">TA
+        <input type="radio" name="curso" value="TL">TL
+        <br><br>
+        Disciplinas:
+        <br>
+        <input type="checkbox" name="LV1">LV1
+        <input type="checkbox" name="RC" >RC
+        <input type="checkbox" name="MPE">MPE
+        <input type="checkbox" name="MC" >MC
+        <input type="checkbox" name="LA" >LA
+        <br><br>
+        Estado: <br>
+        <select name="Estados" >
+            <option value=""></option>
+            <option value="DF">DF</option>
+            <option value="RJ">RJ</option>
+            <option value="MG">MG</option>
+            <option value="MT">MT</option>
+            <option value="SP">SP</option>
+        </select>
+        <br><br>
+        Observações: <br>
+        <textarea name="observações"  cols="15" rows="5"></textarea>
+        <br>
+        <input type="submit" value="Cadastrar">
+
+
+        
+    </form>
+</body>
+</html>
